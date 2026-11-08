@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-active-knocker",
+      "description": "Connect AI agents to Active Knocker using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-active-knocker/SKILL.md": "550af55a8a673315ed255e55c340741fce6b349ea3c93ff7d4f62c235ecd2f88"
+  }
+}
