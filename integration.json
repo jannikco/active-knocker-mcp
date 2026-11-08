@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "dd3daa691d553069a509d55e528b6d2ab29bb6da2d4b749b3acd82d8de2f311a",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.activeknocker.com/document-json"
+  ],
+  "id": "active-knocker-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Active Knocker MCP setup and connection checker",
+  "description": "Generate Active Knocker MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "active-knocker",
+  "appName": "Active Knocker",
+  "providerDocs": "https://api.activeknocker.com/document-json",
+  "providerWebsite": "https://www.activeknocker.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://api.activeknocker.com/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-active-knocker-mcp"
+}
